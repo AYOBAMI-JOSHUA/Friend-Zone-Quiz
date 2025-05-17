@@ -95,7 +95,7 @@ function App() {
   useEffect(function () {
     fetch("/data/qdb.json") 
       .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
+      .then((data) => dispatch({ type: "dataReceived", payload: data.questions }))
       .catch((err) => dispatch({ type: "dataFailed" }));
   }, []);
 

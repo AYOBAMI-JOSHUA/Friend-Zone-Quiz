@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Speech Bubble + Heart Ghost -->
+  <path d="M20 10H180C185.523 10 190 14.477 190 20V50C190 55.523 185.523 60 180 60H120L80 80L40 60H20C14.477 60 10 55.523 10 50V20C10 14.477 14.477 10 20 10Z" fill="#6A5ACD"/>
+  <path d="M60 35C60 28.373 65.373 23 72 23C78.627 23 84 28.373 84 35C84 41.627 72 55 72 55C72 55 60 41.627 60 35Z" fill="white"/>
+  <path d="M84 35C84 28.373 89.373 23 96 23C102.627 23 108 28.373 108 35C108 41.627 96 55 96 55C96 55 84 41.627 84 35Z" fill="white"/>
+  <path d="M72 30C72 27.791 73.791 26 76 26C78.209 26 80 27.791 80 30C80 32.209 78.209 34 76 34C73.791 34 72 32.209 72 30Z" fill="#6A5ACD"/>
+  <path d="M96 30C96 27.791 97.791 26 100 26C102.209 26 104 27.791 104 30C104 32.209 102.209 34 100 34C97.791 34 96 32.209 96 30Z" fill="#6A5ACD"/>
+  
+  <!-- Text -->
+  <text x="100" y="40" font-family="Poppins" font-size="20" font-weight="bold" text-anchor="middle" fill="white">FRIEND ZONE QUIZ</text>
+</svg>

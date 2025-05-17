@@ -1,0 +1,392 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.app-header header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #4a6fa5;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header header h1 {
+  font-size: 2rem;
+}
+
+/* Main Content Styles */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Loader Styles */
+.loader {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+/* Error Styles */
+.error {
+  text-align: center;
+  color: #d9534f;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Start Screen Styles */
+.start-screen {
+  text-align: center;
+}
+
+.start-screen h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #4a6fa5;
+}
+
+.start-screen h3 {
+  margin-bottom: 2rem;
+  font-weight: normal;
+}
+
+.start-screen button {
+  padding: 0.8rem 1.6rem;
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-screen button:hover {
+  background-color: #3a5a8a;
+}
+
+.options {
+  max-width: 600px;
+  margin-top: 1rem;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.options button {
+  padding: 0.8rem 1.6rem;
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  padding:1.1rem;
+  background-color: #3a5a8a;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.options button {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+  background-color: #4a6fa5;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.options button:hover:not(:disabled) {
+  background-color: #e0e0e0;
+  transform: translateX(5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Selected answer */
+.options button.answer {
+  background-color: #4a6fa5;
+  color: white;
+  border-color: #4a6fa5;
+}
+
+/* Correct answer (when shown after selection) */
+.options button.correct {
+  background-color: #5cb85c;
+  color: white;
+  border-color: #5cb85c;
+  transform: translateX(10px);
+  box-shadow: 0 4px 8px rgba(92, 184, 92, 0.3);
+}
+
+/* Wrong answer (when shown after selection) */
+.options button.wrong {
+  background-color: #d9534f;
+  color: white;
+  border-color: #d9534f;
+  transform: translateX(10px);
+  box-shadow: 0 4px 8px rgba(217, 83, 79, 0.3);
+}
+
+/* Disabled buttons after answering */
+.options button:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+//Nextbutton
+.nextbtn {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.nextbtn button {
+  background-color: #4f46e5; /* Vibrant purple-blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nextbtn button:hover {
+  background-color: #4338ca; /* Slightly darker shade */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nextbtn button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nextbtn button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.4);
+}
+
+//Progrss bar
+
+.head{
+  margin-bottom: 4rem;
+}
+
+.head header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  color: #374151; /* Dark gray for text */
+}
+
+.head progress {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #e5e7eb; /* Light gray background for unfilled part */
+  border: none;
+}
+
+/* Style for WebKit browsers (Chrome, Safari) */
+.head progress::-webkit-progress-bar {
+  background-color: #e5e7eb;
+  border-radius: 4px;
+}
+
+.head progress::-webkit-progress-value {
+  background-color: #4f46e5; /* Matching your button color */
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* Style for Firefox */
+.head progress::-moz-progress-bar {
+  background-color: #4f46e5;
+  border-radius: 4px;
+}
+
+.points {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head header p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.head header p strong {
+  color: #1f2937; /* Darker gray for emphasized text */
+}
+
+/* Optional: Add some animation when progress changes */
+@keyframes progressAnimation {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.head progress {
+  animation: progressAnimation 0.5s ease-out;
+}
+
+//Finish screen
+
+.result {
+  text-align: center;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.result p:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #4b5563;
+}
+
+.result strong {
+  color: #7c3aed;
+  font-size: 1.8rem;
+}
+
+
+.result p:last-child {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 50px; /* Pill shape */
+  background-color: #e0f2fe; /* Light blue background */
+  color: #0369a1; /* Dark blue text */
+  border: 2px solid #bae6fd; /* Lighter blue border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Shine effect on hover */
+.result p:last-child:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.result p:last-child:hover::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% { transform: rotate(30deg) translate(-10%, -10%); }
+  100% { transform: rotate(30deg) translate(100%, 100%); }
+}
+
+/* Different color schemes for each score range */
+.result p:last-child[data-score="100"] {
+  background-color: #fce7f3;
+  color: #db2777;
+  border-color: #fbcfe8;
+}
+
+.result p:last-child[data-score="80"] {
+  background-color: #dcfce7;
+  color: #166534;
+  border-color: #bbf7d0;
+}
+
+.result p:last-child[data-score="50"] {
+  background-color: #fef9c3;
+  color: #854d0e;
+  border-color: #fef08a;
+}
+
+.result p:last-child[data-score="0"] {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border-color: #fecaca;
+}
+
+//foooter
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1rem;
+  background-color: #f5f5f5; 
+  border-top: 1px solid #e0e0e0; 
+  margin-top: auto;
+}
+
+/* Timer styles */
+.timer {
+  font-family: 'Courier New', monospace; 
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 12%;
+}

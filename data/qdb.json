@@ -1,0 +1,154 @@
+{
+    "questions": [
+      {
+        "question": "How often do they initiate conversations with you?",
+        "options": [
+            "Daily, they always text/call first", 
+            "Occasionally, but you usually start the chat", 
+            "Rarely, unless they need something"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What kind of compliments do they give you?",
+        "options": [
+            "You're such a great friend!", 
+            "You're really attractive or flirtatious comments", 
+            "They don’t really compliment you"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Do they remember small details about you?",
+        "options": [
+            "Yes, they remember your favorite things", 
+            "Sometimes, but not always", 
+            "No, they forget important stuff"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How do they react to your physical touch (hug, arm tap, etc.)?",
+        "options": [
+            "They pull away or seem uncomfortable", 
+            "They don’t mind it", 
+            "They initiate touch often"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "Do they talk about their romantic interests with you?",
+        "options": [
+            "Yes, all the time", 
+            "Rarely, unless you ask", 
+            "Never, they avoid the topic"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How do they respond to your flirting?",
+        "options": [
+            "They laugh it off or ignore it", 
+            "They flirt back playfully", 
+            "They get awkward and change the subject"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Do they prioritize spending time with you?",
+        "options": [
+            "Yes, they make plans often", 
+            "Only if their other friends are busy", 
+            "They rarely hang out one-on-one"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Do they post about you on social media?",
+        "options": [
+            "Yes, with friendly captions like Bestie!", 
+            "Yes, with ambiguous or flirty captions", 
+            "No, they hardly tag you"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "How do they act when you mention dating someone else?",
+        "options": [
+            "They seem happy for you", 
+            "They act jealous or ask a lot of questions", 
+            "They don’t care at all"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Do they make future plans with you (trips, events, etc.)?",
+        "options": [
+            "Only casual hangouts", 
+            "They avoid planning ahead", 
+            "Yes, long-term plans"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "How do they introduce you to others?",
+        "options": [
+            "This is my friend…", 
+            "This is [your name]…", 
+            "With a nickname or inside joke"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Do they tease you playfully?",
+        "options": [
+            "Sometimes, but not often", 
+            "Yes, all the time", 
+            "No, they’re always serious"
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Do they respond quickly to your messages?",
+        "options": [
+            "Within minutes", 
+            "A few hours later", 
+            "Days later or left on read"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Have they ever tried to set you up with someone else?",
+        "options": [
+            "Yes, multiple times", 
+            "No, never", 
+            "They joked about it once"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How do they look at you?",
+        "options": [
+            "Quick glances, no lingering eye contact", 
+            "Intense or prolonged eye contact", 
+            "They avoid eye contact"
+        ],
+        "correctOption": 1,
+        "points": 10
+      }
+    ]
+  }
